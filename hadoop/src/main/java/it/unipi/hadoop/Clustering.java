@@ -155,6 +155,6 @@ public class Clustering {
         FileOutputFormat.setOutputPath(job, new Path(conf.get("finalMeans")));
 
         // Exit
-        return job.waitForCompletion(true);
+        return job.waitForCompletion(conf.getBoolean("verbose", true));
     }
 }
