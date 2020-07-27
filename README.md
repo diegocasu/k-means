@@ -1,6 +1,10 @@
-# Overview
+# K-means
 
-This repository contains the Hadoop and Spark implementation of the _k_-means algorithm.
+Project for the Cloud Computing course of the Master of Science in Computer Engineering, University of Pisa.
+
+The project consists in the design and implementation of the k-means algorithm using the Hadoop and Spark frameworks.
+
+## Overview
 
 The repository is organized in the following way:
 - _hadoop_ contains the Hadoop code
@@ -18,3 +22,9 @@ They can be installed by:
 ```bash
 pip install -r requirements.txt
 ```
+
+## Contributors
+[Francesco Barbarulo](https://github.com/francescobarbarulo)      
+[Diego Casu](https://github.com/diegocasu)      
+[Bruk Tekalgne Gurmesa](https://github.com/BrukT)      
+[Giovan Battista Rolandi](https://github.com/giomba)      
